@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		8475A7EF1EF949F0005AF25B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475A7EE1EF949F0005AF25B /* AppDelegate.swift */; };
-		8475A7F11EF949F0005AF25B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475A7F01EF949F0005AF25B /* ViewController.swift */; };
 		8475A7F41EF949F0005AF25B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8475A7F21EF949F0005AF25B /* Main.storyboard */; };
 		8475A7F61EF949F0005AF25B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8475A7F51EF949F0005AF25B /* Assets.xcassets */; };
 		8475A7F91EF949F0005AF25B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8475A7F71EF949F0005AF25B /* LaunchScreen.storyboard */; };
 		8475A8041EF949F0005AF25B /* ProjectIOsSanteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475A8031EF949F0005AF25B /* ProjectIOsSanteTests.swift */; };
 		8475A80F1EF949F0005AF25B /* ProjectIOsSanteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475A80E1EF949F0005AF25B /* ProjectIOsSanteUITests.swift */; };
+		8475A81F1EF94F4B005AF25B /* PatientTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475A81E1EF94F4B005AF25B /* PatientTableViewController.swift */; };
+		8475A8221EF952F9005AF25B /* CreatePatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475A8201EF952F9005AF25B /* CreatePatientViewController.swift */; };
+		8475A8231EF952F9005AF25B /* CreatePatientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8475A8211EF952F9005AF25B /* CreatePatientViewController.xib */; };
+		8475A8261EF95584005AF25B /* Personne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475A8251EF95584005AF25B /* Personne.swift */; };
+		8475A8281EF967B3005AF25B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475A8271EF967B3005AF25B /* DetailViewController.swift */; };
+		84D497691EFBAB5300A937F9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D497681EFBAB5300A937F9 /* CoreData.framework */; };
+		84D4976C1EFBABA100A937F9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84D4976A1EFBABA100A937F9 /* Model.xcdatamodeld */; };
+		84FBD0AF1EFAA98800ACB513 /* UserDefaultViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FBD0AD1EFAA98800ACB513 /* UserDefaultViewControler.swift */; };
+		84FBD0B01EFAA98800ACB513 /* UserDefaultViewControler.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FBD0AE1EFAA98800ACB513 /* UserDefaultViewControler.xib */; };
+		84FBD0B21EFABC2200ACB513 /* names.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84FBD0B11EFABC2200ACB513 /* names.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,6 @@
 /* Begin PBXFileReference section */
 		8475A7EB1EF949F0005AF25B /* ProjectIOsSante.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectIOsSante.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8475A7EE1EF949F0005AF25B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8475A7F01EF949F0005AF25B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8475A7F31EF949F0005AF25B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8475A7F51EF949F0005AF25B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8475A7F81EF949F0005AF25B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,16 @@
 		8475A80A1EF949F0005AF25B /* ProjectIOsSanteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectIOsSanteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8475A80E1EF949F0005AF25B /* ProjectIOsSanteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectIOsSanteUITests.swift; sourceTree = "<group>"; };
 		8475A8101EF949F0005AF25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8475A81E1EF94F4B005AF25B /* PatientTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientTableViewController.swift; sourceTree = "<group>"; };
+		8475A8201EF952F9005AF25B /* CreatePatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePatientViewController.swift; sourceTree = "<group>"; };
+		8475A8211EF952F9005AF25B /* CreatePatientViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreatePatientViewController.xib; sourceTree = "<group>"; };
+		8475A8251EF95584005AF25B /* Personne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Personne.swift; sourceTree = "<group>"; };
+		8475A8271EF967B3005AF25B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		84D497681EFBAB5300A937F9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		84D4976B1EFBABA100A937F9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		84FBD0AD1EFAA98800ACB513 /* UserDefaultViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultViewControler.swift; sourceTree = "<group>"; };
+		84FBD0AE1EFAA98800ACB513 /* UserDefaultViewControler.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserDefaultViewControler.xib; sourceTree = "<group>"; };
+		84FBD0B11EFABC2200ACB513 /* names.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = names.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D497691EFBAB5300A937F9 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,7 @@
 				8475A8021EF949F0005AF25B /* ProjectIOsSanteTests */,
 				8475A80D1EF949F0005AF25B /* ProjectIOsSanteUITests */,
 				8475A7EC1EF949F0005AF25B /* Products */,
+				84D497671EFBAB5300A937F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +117,18 @@
 		8475A7ED1EF949F0005AF25B /* ProjectIOsSante */ = {
 			isa = PBXGroup;
 			children = (
+				8475A8241EF95560005AF25B /* Data */,
 				8475A7EE1EF949F0005AF25B /* AppDelegate.swift */,
-				8475A7F01EF949F0005AF25B /* ViewController.swift */,
 				8475A7F21EF949F0005AF25B /* Main.storyboard */,
+				8475A81E1EF94F4B005AF25B /* PatientTableViewController.swift */,
+				8475A8201EF952F9005AF25B /* CreatePatientViewController.swift */,
+				8475A8211EF952F9005AF25B /* CreatePatientViewController.xib */,
 				8475A7F51EF949F0005AF25B /* Assets.xcassets */,
 				8475A7F71EF949F0005AF25B /* LaunchScreen.storyboard */,
 				8475A7FA1EF949F0005AF25B /* Info.plist */,
+				8475A8271EF967B3005AF25B /* DetailViewController.swift */,
+				84FBD0AD1EFAA98800ACB513 /* UserDefaultViewControler.swift */,
+				84FBD0AE1EFAA98800ACB513 /* UserDefaultViewControler.xib */,
 			);
 			path = ProjectIOsSante;
 			sourceTree = "<group>";
@@ -123,6 +149,24 @@
 				8475A8101EF949F0005AF25B /* Info.plist */,
 			);
 			path = ProjectIOsSanteUITests;
+			sourceTree = "<group>";
+		};
+		8475A8241EF95560005AF25B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				84FBD0B11EFABC2200ACB513 /* names.plist */,
+				8475A8251EF95584005AF25B /* Personne.swift */,
+				84D4976A1EFBABA100A937F9 /* Model.xcdatamodeld */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		84D497671EFBAB5300A937F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84D497681EFBAB5300A937F9 /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +276,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8475A8231EF952F9005AF25B /* CreatePatientViewController.xib in Resources */,
+				84FBD0B21EFABC2200ACB513 /* names.plist in Resources */,
+				84FBD0B01EFAA98800ACB513 /* UserDefaultViewControler.xib in Resources */,
 				8475A7F91EF949F0005AF25B /* LaunchScreen.storyboard in Resources */,
 				8475A7F61EF949F0005AF25B /* Assets.xcassets in Resources */,
 				8475A7F41EF949F0005AF25B /* Main.storyboard in Resources */,
@@ -259,8 +306,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8475A7F11EF949F0005AF25B /* ViewController.swift in Sources */,
+				84FBD0AF1EFAA98800ACB513 /* UserDefaultViewControler.swift in Sources */,
+				8475A81F1EF94F4B005AF25B /* PatientTableViewController.swift in Sources */,
 				8475A7EF1EF949F0005AF25B /* AppDelegate.swift in Sources */,
+				84D4976C1EFBABA100A937F9 /* Model.xcdatamodeld in Sources */,
+				8475A8281EF967B3005AF25B /* DetailViewController.swift in Sources */,
+				8475A8221EF952F9005AF25B /* CreatePatientViewController.swift in Sources */,
+				8475A8261EF95584005AF25B /* Personne.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +557,7 @@
 				8475A8151EF949F0005AF25B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8475A8161EF949F0005AF25B /* Build configuration list for PBXNativeTarget "ProjectIOsSanteTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +566,7 @@
 				8475A8181EF949F0005AF25B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8475A8191EF949F0005AF25B /* Build configuration list for PBXNativeTarget "ProjectIOsSanteUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,8 +575,22 @@
 				8475A81B1EF949F0005AF25B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84D4976A1EFBABA100A937F9 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84D4976B1EFBABA100A937F9 /* Model.xcdatamodel */,
+			);
+			currentVersion = 84D4976B1EFBABA100A937F9 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8475A7E31EF949F0005AF25B /* Project object */;
 }

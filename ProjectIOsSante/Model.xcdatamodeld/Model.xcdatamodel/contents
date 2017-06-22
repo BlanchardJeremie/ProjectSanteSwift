@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16D30" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DoctorData" representedClassName="DoctorData" syncable="YES" codeGenerationType="class">
+        <attribute name="nom" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="patients" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PersonneData" inverseName="maindoctor" inverseEntity="PersonneData" syncable="YES"/>
+    </entity>
+    <entity name="PersonneData" representedClassName="PersonneData" syncable="YES" codeGenerationType="class">
+        <attribute name="firstname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isfemale" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="lastname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pictureUrl" optional="YES" attributeType="String" defaultValueString="http://icon-icons.com/icons2/582/PNG/512/wonder-women_icon-icons.com_55030.png" syncable="YES"/>
+        <attribute name="serveurid" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="maindoctor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DoctorData" inverseName="patients" inverseEntity="DoctorData" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PersonneData" positionX="-63" positionY="-18" width="128" height="133"/>
+        <element name="DoctorData" positionX="153" positionY="42" width="128" height="75"/>
+    </elements>
+</model>
